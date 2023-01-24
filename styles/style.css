@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* 
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+
+*/
+
+.right-angle {
+  width: 10px;
+}
+/* buttons */
+.custom-btn {
+  background: #b68c5a !important;
+  border-radius: 8px !important;
+  border: none !important;
+  padding: 18px 30px !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  color: #ffffff !important;
+}
+.custom-btn:hover {
+  border: 2px solid #b68c5a !important;
+  color: #b68c5a !important;
+  padding: 16px 28px !important;
+  background: #ffffff !important;
+}
+/* header banner */
+.header-banner {
+  background: url("../images/banner.png"),
+    linear-gradient(0deg, #111111 0%, rgba(17, 17, 17, 0) 100%) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border-radius: 8px !important;
+}
+.custom-header-title {
+  font-family: "EB Garamond", serif !important;
+  font-weight: 800 !important;
+  font-size: 72px !important;
+  line-height: 85px !important;
+  text-align: center !important;
+  color: #ffffff !important;
+  margin-top: 105px !important;
+  margin-bottom: 0 !important;
+}
+.custom-header-description {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  text-align: center !important;
+  color: #e7e7e7 !important;
+  margin-top: 24px !important;
+  margin-bottom: 0 !important;
+  max-width: 750px !important;
+}
+.custom-header-form {
+  margin-top: 26px !important;
+  margin-bottom: 105px !important;
+  max-width: 750px !important;
+}
+/* main sections */
+.custom-section-title {
+  font-family: "EB Garamond", serif !important;
+  font-weight: 800 !important;
+  font-size: 40px !important;
+  line-height: 52px !important;
+  text-align: center !important;
+  color: #414040 !important;
+}
+.custom-section-description {
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  text-align: center !important;
+  color: #707070 !important;
+}
